@@ -55,3 +55,10 @@ PRODUCT_COPY_FILES += \
     vendor/vanilla/prebuilt/bin/backuptool.sh:install/bin/backuptool.sh \
     vendor/vanilla/prebuilt/bin/backuptool.functions:install/bin/backuptool.functions \
     vendor/vanilla/prebuilt/bin/50-base.sh:system/addon.d/50-base.sh
+
+# For stereo widening effect
+ifneq ($(TARGET_NO_DSPMANAGER), true)
+    PRODUCT_PACKAGES += \
+        libcyanogen-dsp \
+        audio_effects.conf
+endif

@@ -14,7 +14,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 VANILLA_BUILDNAME :=Bean
-VANILLA_BUILDNUMBER :=2.0
+VANILLA_BUILDNUMBER :=2.01
 ifeq ($(PUBLIC),true)
  VANILLA_BUILDTAG :=Public
 else

@@ -30,5 +30,5 @@ else
 endif
 
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.rom.version=$(ROM_VERSION)
+    ro.vanilla.version=$(ROM_VERSION)
 

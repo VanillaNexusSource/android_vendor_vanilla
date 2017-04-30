@@ -13,8 +13,8 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
-VANILLA_BUILDNAME :=Bean
-VANILLA_BUILDNUMBER :=2.03
+VANILLA_BUILDNAME :=C
+VANILLA_BUILDNUMBER :=3.0
 ifeq ($(PUBLIC),true)
  VANILLA_BUILDTAG :=Public
 else

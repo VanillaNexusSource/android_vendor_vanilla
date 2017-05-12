@@ -14,7 +14,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 VANILLA_BUILDNAME :=Cheesecake
-VANILLA_BUILDNUMBER :=3.0
+VANILLA_BUILDNUMBER :=3.01
 ifeq ($(PUBLIC),true)
  VANILLA_BUILDTAG :=Public
 else

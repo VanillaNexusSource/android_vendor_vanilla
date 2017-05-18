@@ -25,6 +25,10 @@ PRODUCT_PACKAGES += \
     ThemeInterfacer \
     OmniJaws
 
+# Vanilla Prebuilts
+PRODUCT_PACKAGES += \
+    VanillaNav
+
 # ThemeInterfacer sig check override
 # Default value is false
 # Setting to true so that my debug APKs get recognized without toggling the

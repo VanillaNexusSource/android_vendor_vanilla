@@ -14,7 +14,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 VANILLA_BUILDNAME :=Deviant
-VANILLA_BUILDNUMBER :=4.1
+VANILLA_BUILDNUMBER :=4.2
 ifeq ($(PUBLIC),true)
  VANILLA_BUILDTAG :=Public
 else

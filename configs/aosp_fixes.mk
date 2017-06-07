@@ -24,7 +24,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.com.android.dataroaming=false \
     ro.atrace.core.services=com.google.android.gms,com.google.android.gms.ui,com.google.android.gms.persistent \
     ro.setupwizard.rotation_locked=true \
-    ro.opa.eligible_device=true
+    ro.opa.eligible_device=true \
+	sys.display-size=3840x2160 
 
 # Proprietary latinime libs needed for Keyboard swyping
 ifneq ($(filter shamu,$(TARGET_DEVICE)),)
